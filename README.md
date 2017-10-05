@@ -14,7 +14,7 @@ This sketch loads hightmap data (terrarium) and the normal-map data from mapzen
 
  
  ---
- SketchA is using a 2D approach with different lightning conditions via the shader, yo might need to shuffle the sliders a bit.
+ SketchA is using a 2D approach with different lightning conditions via the shader, you might need to shuffle the sliders a bit.
 ![Image of sketchA](https://c1.staticflickr.com/5/4320/36187433925_97602705b0_o.png)
 
 SketchB is 3D with a vertext shader, but the code is more dirty and has some leftovers...

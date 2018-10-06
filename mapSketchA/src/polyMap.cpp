@@ -24,7 +24,7 @@ void PolyMap::loadMap(ofImage &terrain_, int steps_) {
     
     for (int i = 1; i < steps_; i++) {
         for (int j = 0; j < terrain_.getWidth() * terrain_.getHeight(); j++) {
-            if ((terrainImgData[j * 3] >= (layerSteps * i))) {
+            if ((terrainImgData[j * 4] >= (layerSteps * i))) {
                 tempImgData[(j * 3)] = 255;
                 tempImgData[(j * 3) + 1] = 255;
                 tempImgData[(j * 3) + 2] = 255;

@@ -3,9 +3,9 @@
 ### Two OpenFrameworks sketches showing how to load Mapzen terrain data and use it with fragment shaders for different interpretations.
 #### The code and the shaders don't have many comments, but project files for _VS_ and _Xcode_ are included and no external Addons are needeed. You need to get your Mapzen Api-Key and replace the the #define in the mapZenHelper.h!
 
-####Updated to work with Nextzen alternative:####
+#### Updated to work with Nextzen alternative
 [https://mapzen.com/blog/migration/](https://mapzen.com/blog/migration/)
-####You can get an API key here####
+#### You can get an API key here
 [https://www.nextzen.org/](https://www.nextzen.org/)
 
 
